@@ -2,6 +2,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -39,4 +41,12 @@ header nav ul li a:hover {
 
 .frontpage-pic {
     border: 2px solid red;
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+    height: 85%;
+    background-image: url(./images/donutImage.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding:  */
 }
