@@ -1,0 +1,42 @@
+ /* Universal selector */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100vw;
+    height: 100vw;
+    /* border: 2px solid red; */
+
+}
+
+nav {
+   /* border: 2px solid blue; */
+   width: 90%;
+   margin: 0 auto;
+   text-align: end;
+   
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header nav ul li a:hover {
+    color: rgb(207, 19, 14);
+    text-decoration: underline;
+}
+
+.frontpage-pic {
+    border: 2px solid red;
+}
