@@ -210,7 +210,7 @@ header nav ul li a:hover {
     background-position: center;
 }
 
-/* the section for donut images */
+/* the section for product images */
 .donutview-section {
     width: 100vw;
     /* border: 2px solid red; */
@@ -233,8 +233,46 @@ header nav ul li a:hover {
 /* we can use the grid item class to only style the background-size and position, then use the Id to style
     the background-image */
 .grid-item { 
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     width: 30%;
     height: 210px;
     margin: 10px 10px 10px 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#d1 {
+    background-image: url("/images/d1.jpg");
+}
+
+#d2 {
+    background-image: url("/images/d2.jpg");
+}
+
+#d3 {
+    background-image: url("/images/d3.jpg");
+}
+
+#d4 {
+    background-image: url("/images/d4.jpg");
+}
+
+#d5 {
+    background-image: url("/images/d5.jpg");
+}
+
+#d6 {
+    background-image: url("/images/d6.jpg");
+}
+
+#d7 {
+    background-image: url("/images/d7.jpg");
+}
+
+#d8 {
+    background-image: url("/images/d8.jpg");
+}
+
+#d9 {
+    background-image: url("/images/d9.jpg");
 }
