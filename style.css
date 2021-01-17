@@ -276,3 +276,47 @@ header nav ul li a:hover {
 #d9 {
     background-image: url("/images/d9.jpg");
 }
+
+.store-section {
+  width: 100wv;
+}
+
+.store-container {
+    width: 90%;
+    /* border: 2px solid blue; */
+    margin: 0px auto;
+}
+
+.store-div {
+    width: 30%;
+    /* border: 1px solid red; */
+    display: inline-block;
+    height: 240px;
+    text-align: center;
+    margin: 20px 15px 10px 15px;
+    color: red;
+}
+
+.store-div h4 {
+  font-weight: bold;
+  font-size: 150%;
+  font-family: monospace;
+}
+.store-div p {
+    font-family: inherit;
+    font-style: italic;
+}
+
+/* contact-section */
+.contact-section {
+    width: 100vw;
+    background-color: brown;
+    height: 50vh;
+    text-align: center;
+    color: white;
+}
+
+.section-title {
+    margin: 25px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
