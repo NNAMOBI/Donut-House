@@ -4,6 +4,7 @@
     padding: 0px;
     max-width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -277,6 +278,7 @@ header nav ul li a:hover {
     background-image: url("/images/d9.jpg");
 }
 
+/* store section */
 .store-section {
   width: 100wv;
 }
@@ -319,4 +321,12 @@ header nav ul li a:hover {
 .section-title {
     margin: 25px 0;
     font-family: 'Courier New', Courier, monospace;
+}
+
+/* social media styling */
+.social-media-i {
+  /* /* display: flex; */
+  /* flex-direction: row; */
+  /* text-align: center; */
+   display: inline-block;
 }
