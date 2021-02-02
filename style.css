@@ -1,0 +1,332 @@
+ /* Universal selector */
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Vesper Libre';
+}
+
+header {
+    width: 100vw;
+    height: 100vw;
+    /* border: 2px solid red; */
+
+}
+
+nav {
+   /* border: 2px solid blue; */
+   width: 90%;
+   margin: 0 auto;
+   text-align: end;
+ 
+}
+
+/* list item on the nav bar */
+header nav ul li {
+    display: inline-block;
+   
+}
+ /* anchor tag */
+header nav ul li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: crimson; */
+}
+
+header nav ul li a:hover {
+    color: rgb(207, 19, 14);
+    text-decoration: underline;
+}
+
+.frontpage-pic {
+    border: 2px solid red;
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+    height: 85%;
+    background-image: url(./images/donutImage.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding:  */
+}
+
+.signature-header {
+    color: brown;
+    font-size: 100px;
+    text-transform: uppercase;
+    /* border: 2px solid blue; */
+    margin: 80px auto;
+    /* font-family: Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.bottom-signature {
+    color:burlywood;
+    /* font-family: monospace; */
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 240%;
+    /* color: crimson; */
+    margin-bottom: 25px;
+    
+}
+.section-title:hover {
+    color: rgb(207, 19, 14);
+}
+
+.about {
+    /* border: 2px solid blue; */
+    width: 100vw;
+    height: 90vh;
+}
+
+/* the container div for the left box and the right box */
+.about-container {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/* the id of the left and right box */
+/* #box {
+    border: 2px solid blue;
+    width: 45%;
+    height: 200px;
+    display: inline-block;
+    margin: auto 25px;
+} */
+ /* About left box */
+
+.row-one-left {
+    /* border: 2px solid blue; */
+    width: 45%;
+    /* height: 200px; */
+    text-align: justify;
+    font-weight: bold;
+    font-family: fantasy;
+    letter-spacing: 0.8;
+    line-height: 200%;
+    color: brown;
+}
+
+/* About right box */
+.row-one-right {
+    /* border: 2px solid blue; */
+    width: 45%;
+    height: 600px;
+    margin-left: 6%;
+    
+
+}
+
+/* div container for the .first-block */
+/* .subrow-top {
+   
+    display: flex;
+    flex-direction: row;
+} */
+
+
+/* div container for the .second-block */
+/* .subrow-bottom {
+    
+    display: flex;
+    flex-direction: row;
+} */
+
+/* first image block under the right-box  which is at the top*/
+/* .first-block {
+    border: 2px solid blue;
+    width: 40%;
+    height: 150px;
+} */
+
+.subrow-top, .subrow-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+ 
+/* second image under the right box which is at the bottom  */
+/* .second-block {
+    border: 2px solid blue;
+    width: 40%;
+    height: 150px;
+} */
+
+.first-block, .second-block {
+    /* border: 2px solid blue; */
+    width: 40%;
+    height: 150px;
+}
+
+
+/* .first-block, .second-block img { */
+    /* border: 2px solid blue; */
+   /* background-size: cover;
+   background-repeat: no-repeat; */
+/* } */
+
+#grid-image1 {
+    width: 45%;
+    background-image: url("/images/donut\ city\ 1.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#grid-image2 {
+    width: 45%;
+    background-image: url("/images/donutImage.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#grid-image3 {
+    width: 45%;
+    background-image: url("/images/donut\ factory.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#grid-image4 {
+    width: 45%;
+    background-image: url("/images/product\ of\ factory.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* the section for product images */
+.donutview-section {
+    width: 100vw;
+    /* border: 2px solid red; */
+}
+
+
+.Dimage-container {
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+
+.row-One, .row-Two, .row-Three {
+    width: 90%;
+    /* border: 2px solid purple; */
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/* we can use the grid item class to only style the background-size and position, then use the Id to style
+    the background-image */
+.grid-item { 
+    /* border: 2px solid brown; */
+    width: 30%;
+    height: 210px;
+    margin: 10px 10px 10px 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#d1 {
+    background-image: url("/images/d1.jpg");
+}
+
+#d2 {
+    background-image: url("/images/d2.jpg");
+}
+
+#d3 {
+    background-image: url("/images/d3.jpg");
+}
+
+#d4 {
+    background-image: url("/images/d4.jpg");
+}
+
+#d5 {
+    background-image: url("/images/d5.jpg");
+}
+
+#d6 {
+    background-image: url("/images/d6.jpg");
+}
+
+#d7 {
+    background-image: url("/images/d7.jpg");
+}
+
+#d8 {
+    background-image: url("/images/d8.jpg");
+}
+
+#d9 {
+    background-image: url("/images/d9.jpg");
+}
+
+/* store section */
+.store-section {
+  width: 100wv;
+}
+
+.store-container {
+    width: 90%;
+    /* border: 2px solid blue; */
+    margin: 0px auto;
+}
+
+.store-div {
+    width: 30%;
+    /* border: 1px solid red; */
+    display: inline-block;
+    height: 240px;
+    text-align: center;
+    margin: 20px 15px 10px 15px;
+    color: red;
+}
+
+.store-div h4 {
+  font-weight: bold;
+  font-size: 150%;
+  font-family: monospace;
+}
+.store-div p {
+    font-family: inherit;
+    font-style: italic;
+}
+
+/* contact-section */
+.contact-section {
+    width: 100vw;
+    background-color: brown;
+    height: 50vh;
+    text-align: center;
+    color: white;
+}
+
+.section-title {
+    margin: 25px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* social media styling */
+.social-media-i {
+  /* /* display: flex; */
+  /* flex-direction: row; */
+  /* text-align: center; */
+   display: inline-block;
+}

@@ -4,40 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donut Project</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/8cd7c7a9d3.js" crossorigin="anonymous"></script>
+
 </head>
+<!-- body -->
 <body>
+    <!-- header -->
     <header>
          
         <nav>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Stores</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#stores">Stores</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="frontpage-pic">
-            <h1>Donut Imperial</h1>
-            <h2>Give you a nice, warm and delicious treat</h2>
+            <h1 class="signature-header">Donut Imperial</h1>
+            <h2 class="bottom-signature">Give you a nice, warm and delicious treat !</h2>
         </div>
        
     
     </header>
+    <!-- main section -->
     <main>
-          <section>
-              <h3>About</h3>
+        <!-- about section -->
+          <section class="about">
+              <a name="about"></a>
+              <h3 class="section-title">About</h3>
+              <div class="about-container">
+                  <!-- left-box div -->
+                  <div class="row-one-left" id="box">
+                    <p>Donut Imperial deals with assorted muffin sugar sprinkles croissant donut vanilla pastry tiramisu candy muffin sugar sweet tiramisu donut ipsum orange tiramisu sugar. Vanilla cream apple donut dolor apple vanilla pastry tiramisu sugar ipsum sugar sweet dolor orange cream ipsum donut donut vanilla.</br></br> 
+                        
+                        Ipsum sweet cream donut jelly tiramisu croissant tiramisu tiramisu apple pastry muffin pastry vanilla dolor cream apple donut sprinkles sprinkles. Biscuit croissant croissant pastry cookie marzipan biscuit marzipan croissant cookie sweet orange marzipan dolor jelly cake biscuit cream pastry sugar.</p>
+                  </div>
+
+                  <!-- right-box div -->
+                  <div class="row-one-right" id="box">
+                   <div class="subrow-top">
+                       <div class="first-block" id="grid-image1">
+                           <!-- <img src="images/donut city 1.jpg"> -->
+                       </div>
+                       <div class="first-block" id="grid-image2">
+                           <!-- <img src="images/donutImage.jpg"> -->
+                       </div>
+                    
+                   </div>
+                   <div class="subrow-bottom">
+                    <div class="second-block" id="grid-image3">
+                        <!-- <img src="images/donut factory.jpg"> -->
+                    </div>
+                    <div class="second-block" id="grid-image4">
+                        <!-- <img src="images/product of factory.jpg"> -->
+                    </div>
+                   </div>
+
+                  </div>
+              </div>
           </section>
-          <section>
-              <h3>Products</h3>
+          <!-- donuts section products -->
+          <section class="donutview-section">
+              <a name="products"></a>
+              <h3 class="section-title">Products</h3>
+              <div class="Dimage-container">
+                  <div class="row-One">
+                    <div class="grid-item" id="d1"></div>
+                    <div class="grid-item" id="d2"></div>
+                    <div class="grid-item" id="d3"></div>
+                    
+                  </div>
+                  <div class="row-Two">
+                    <div class="grid-item" id="d4"></div>
+                    <div class="grid-item" id="d5"></div>
+                    <div class="grid-item" id="d6"></div>
+                    
+                  </div>
+              </div>
+              <div class="row-Three">
+                <div class="grid-item" id="d7"></div>
+                <div class="grid-item" id="d8"></div>
+                <div class="grid-item" id="d9"></div>
+                
+              </div>
           </section>
-          <section>
-              <h3>Stores</h3>
+          <!-- stores section -->
+          <section class="store-section">
+              <a name="stores"></a>
+              <h3 class="section-title">Stores</h3>
+              <div class="store-container">
+                  <div class="store-div">
+                      <h4>Ontario, canada OC</h4></br>
+                      <p>The river of dale store
+                      </br>1500 mounte cristo avenue
+                      </p>
+                  </div>
+                  <div class="store-div">
+                    <h4>Texas A $ M, Dallas TX</h4></br>
+                    <p> The sunny days of
+                    </br> 146 jellyfish road AM
+                        </p>
+                    </p>
+                  </div>
+                  <div class="store-div">
+                    <h4>Aberdeen Stoneheaven, SC</h4></br>
+                        <p>cold glazing atmos
+                  </br> 151 beach island avenue bronx
+                    </p>
+                  </div>
+              </div>
           </section>
     </main>
 
-    <footer>
-        <h3>Contact</h3>
+    <!-- footer -->
+    <footer class="contact-section">
+        <!-- contact -->
+        <a name="contact"></a>
+        <h3 class="section-title">Contact</h3>
+        <div>
+            <p>donutImperial@gmail.com</p>
+        </div>
+        <div class="social-media-icon">
+            <div class="social-media-i">
+                <i class="fab fa-instagram fa-3x"></i>
+            </div>
+            <div class="social-media-i"><i class="fab fa-facebook fa-3x"></i></div>
+            <div class="social-media-i"><i class="fab fa-twitter fa-3x"></i></div>
+           <!-- copyright statement -->
+           <p>&copy;DonutsImperial2020</p>
+        </div>
 
     </footer>
     
